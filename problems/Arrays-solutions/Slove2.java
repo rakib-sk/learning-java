@@ -9,7 +9,7 @@ public class Slove2 {
         int[] marks = new int[10];
         
         for(int i = 0; i < marks.length; i++){
-            System.out.print("Enter mark of student "+ (i+1)+": ");
+            System.out.print("Enter mark of student "+ i+": ");
             marks[i] = sc.nextInt();
         }
         

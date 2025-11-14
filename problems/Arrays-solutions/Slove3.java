@@ -6,7 +6,7 @@ public class Slove3 {
         int[] temperature = new int[7];
         
         for(int i=0; i<temperature.length; i++){
-            System.out.print("Enter temperature of day " + (i+1) + ": ");
+            System.out.print("Enter temperature of day " + i + ": ");
             temperature[i] = sc.nextInt();
         }
         
